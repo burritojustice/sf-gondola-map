@@ -1,0 +1,1053 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Sutro-Bernal",
+        "start": "sutro",
+        "end": "bernal"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4151825904846,
+            37.74311305458044
+          ],
+          [
+            -122.45282739400864,
+            37.75522929037348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Sutro-Ocean Beach (Noriega)",
+        "end": "sutro",
+        "start": "ocean_beach"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45283007621765,
+            37.755231411018265
+          ],
+          [
+            -122.5095748901367,
+            37.75286897503704
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Bernal-Potrero",
+        "start": "bernal",
+        "end": "potrero"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.41517990827559,
+            37.74311093358834
+          ],
+          [
+            -122.39698648452759,
+            37.75619417747575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Sutro-Mount Davidson",
+        "start": "sutro",
+        "end": "mount_davidson"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45283007621765,
+            37.755244134885736
+          ],
+          [
+            -122.45569467544556,
+            37.738862464436956
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Mount Davidson-Diamond Heights",
+        "start": "mount_davidson",
+        "end": "diamond_heights"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45569467544556,
+            37.73887094889193
+          ],
+          [
+            -122.43994474411011,
+            37.743757833360355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Bernal-Diamond Heights",
+        "start": "bernal",
+        "end": "diamond_heights"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.43992328643797,
+            37.743774801147126
+          ],
+          [
+            -122.41517722606658,
+            37.74311729656446
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Bernal-Hunter's Point",
+        "start": "bernal",
+        "stop": "",
+        "end": "hunters_point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4151611328125,
+            37.743130022515025
+          ],
+          [
+            -122.3836612701416,
+            37.732931592516834
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Bernal/McLaren Park (La Grande Tank)",
+        "start": "bernal",
+        "stop": "",
+        "end": "mclaren"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.41517186164856,
+            37.743138506480875
+          ],
+          [
+            -122.42422699928284,
+            37.72312212659839
+          ],
+          [
+            -122.43636131286621,
+            37.71343018466285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Mount Davidson-Oceanview",
+        "start": "mount_davidson",
+        "end": "oceanview"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45569199323654,
+            37.738873070005525
+          ],
+          [
+            -122.46262550354004,
+            37.718149011800215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Sutro-Golden Gate Park (De Young)",
+        "start": "sutro",
+        "end": "ggp"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45283007621765,
+            37.75523565230765
+          ],
+          [
+            -122.46880531311034,
+            37.771494968303685
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Golden Gate Park-Sutro Heights",
+        "start": "ggp",
+        "end": "sutro_heights"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.46879994869231,
+            37.771494968303685
+          ],
+          [
+            -122.51204252243043,
+            37.77788915018273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Potrero-Mission Bay",
+        "start": "potrero",
+        "end": "mission_bay"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.39697575569151,
+            37.756219624877346
+          ],
+          [
+            -122.38872528076173,
+            37.77364903829084
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Mount Davidson-SF Zoo",
+        "start": "mount_davidson",
+        "end": "sf_zoo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45568931102753,
+            37.73887094889193
+          ],
+          [
+            -122.50644207000734,
+            37.73464556997969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Sutro-Corona Heights (Randall Museum)",
+        "start": "sutro",
+        "end": "corona_heights"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45280861854552,
+            37.75523565230765
+          ],
+          [
+            -122.43902206420898,
+            37.7648288266142
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Corona Heights (Randall)-Alta Plaza",
+        "start": "corona_heights",
+        "end": "alta_plaza"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.43902206420898,
+            37.76484578956936
+          ],
+          [
+            -122.43458032608032,
+            37.77573520373188
+          ],
+          [
+            -122.4376916885376,
+            37.791286305286874
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Alta Plaza-Presidio (Crissy Field)",
+        "start": "alta_plaza",
+        "end": "presidio"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.43769705295561,
+            37.791286305286874
+          ],
+          [
+            -122.47065067291258,
+            37.80556262470994
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Alta Plaza-Russian Hll",
+        "start": "alta_plaza",
+        "end": "russian_hill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.43768095970154,
+            37.79130326217203
+          ],
+          [
+            -122.41739273071288,
+            37.79825313779303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Salesforce Tower-Telegraph Hill",
+        "start": "salesforce",
+        "stop": "",
+        "end": "telegraph_hill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.40583777427672,
+            37.80237527720156
+          ],
+          [
+            -122.39692747592925,
+            37.789789844846204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Bernal-SOMA (Salesforce Tower)",
+        "start": "bernal",
+        "end": "salesforce"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.41517186164856,
+            37.743138506480875
+          ],
+          [
+            -122.39692747592925,
+            37.789789844846204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "SOMA (Salesforce Tower)-Mission Bay",
+        "start": "salesforce",
+        "end": "mission_bay"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.38871991634367,
+            37.773657518757325
+          ],
+          [
+            -122.39692479372025,
+            37.789789844846204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "SOMA (Salesforce Tower)-Yerba Buena",
+        "start": "salesforce",
+        "end": "yerba_buena"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.39692479372025,
+            37.789789844846204
+          ],
+          [
+            -122.36838340759277,
+            37.80971614241525
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Yerba Buena Island-Treasure Island",
+        "start": "yerba_buena",
+        "end": "treasure_island"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.36838340759277,
+            37.80971614241525
+          ],
+          [
+            -122.36813664436342,
+            37.81734444384821
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Telegraph Hill-Russian Hill",
+        "start": "telegraph_hill",
+        "end": "russian_hill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.41739273071288,
+            37.798251018382
+          ],
+          [
+            -122.40584313869475,
+            37.80237527720156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#0433ff",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Russian Hill-Financial District",
+        "start": "financial_district",
+        "end": "russian)_hill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.41739273071288,
+            37.79825525720401
+          ],
+          [
+            -122.40375638008118,
+            37.79205783962207
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "SOMA (Salesforce Tower)-Financial District (555 California)",
+        "start": "soma",
+        "end": "financial_district"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.40375101566316,
+            37.79206207879944
+          ],
+          [
+            -122.39692211151123,
+            37.789789844846204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Russian Hill-Pier 39",
+        "from": "russian_hill",
+        "end": "pier_39"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.41739273071288,
+            37.79828916777156
+          ],
+          [
+            -122.41031169891356,
+            37.80880069327815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Russian Hill-Fort Mason",
+        "start": "russian_hill",
+        "end": "fort_mason"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42837905883789,
+            37.80722405982652
+          ],
+          [
+            -122.41737127304077,
+            37.79828916777156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#942192",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.47060775756836,
+            37.80544394934271
+          ],
+          [
+            -122.43756294250488,
+            37.791269348397826
+          ],
+          [
+            -122.42533206939696,
+            37.78426582053905
+          ],
+          [
+            -122.41928100585938,
+            37.776854585310524
+          ],
+          [
+            -122.38876819610596,
+            37.77363207735496
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff2600",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4151611328125,
+            37.743163958372556
+          ],
+          [
+            -122.41928100585938,
+            37.77688850569985
+          ],
+          [
+            -122.41739273071288,
+            37.79825525720401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00f900",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": "[sutro_heights,outer_richmond,inner_richmond,usf,alamo_square,civic_center,salesforce,]"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.39700794219969,
+            37.78974321244753
+          ],
+          [
+            -122.41929709911345,
+            37.77685882536006
+          ],
+          [
+            -122.43460178375243,
+            37.775836966393946
+          ],
+          [
+            -122.45207905769347,
+            37.779347692456575
+          ],
+          [
+            -122.46464252471924,
+            37.780992757927905
+          ],
+          [
+            -122.47837543487549,
+            37.780382222437794
+          ],
+          [
+            -122.5120210647583,
+            37.77787219021958
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff9300",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Hunters Point-SF Zoo",
+        "stops": "[hunters_point,bernal,diamond_heights,mount_davidson,sf_zoo]",
+        "line": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.50612556934357,
+            37.73419586686101
+          ],
+          [
+            -122.45571613311766,
+            37.73888791779894
+          ],
+          [
+            -122.43898719549178,
+            37.74375147043929
+          ],
+          [
+            -122.4151825904846,
+            37.74314699044574
+          ],
+          [
+            -122.38353252410889,
+            37.73289765196844
+          ],
+          [
+            -122.37012147903442,
+            37.728858615628525
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#fffb00",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": "[fort_funston,sf_state,orizaba,mount_davidson,sutro,corona_heights,alamo_swuare,alta_vista,russian_hill,pier_39]"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.50189304351807,
+            37.714686304692556
+          ],
+          [
+            -122.47816085815431,
+            37.72008398351721
+          ],
+          [
+            -122.4625825881958,
+            37.71811506447689
+          ],
+          [
+            -122.45569467544556,
+            37.738904886702066
+          ],
+          [
+            -122.4528193473816,
+            37.755244134885736
+          ],
+          [
+            -122.43885040283203,
+            37.76501541890696
+          ],
+          [
+            -122.43447303771973,
+            37.77587088725018
+          ],
+          [
+            -122.43764877319336,
+            37.79154065815569
+          ],
+          [
+            -122.41730690002441,
+            37.79839089938073
+          ],
+          [
+            -122.41018295288085,
+            37.80910584425156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff40ff",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": "[ocean_beach,sutro,bernal,potrero,mission_bay,salesforce]"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.50961780548094,
+            37.75283504362966
+          ],
+          [
+            -122.45275497436523,
+            37.75537985600267
+          ],
+          [
+            -122.41481781005858,
+            37.74329970164701
+          ],
+          [
+            -122.39662170410156,
+            37.75646561597495
+          ],
+          [
+            -122.38855361938475,
+            37.774106982088796
+          ],
+          [
+            -122.39696502685547,
+            37.78998061344339
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00fdff",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": "[sf_zoo,sunset,grandview,ggp,usf,alamo_square,marina]"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.44082450866699,
+            37.8063933469406
+          ],
+          [
+            -122.4374771118164,
+            37.79154065815569
+          ],
+          [
+            -122.45209246873854,
+            37.77934345254982
+          ],
+          [
+            -122.46880531311034,
+            37.77148648758917
+          ],
+          [
+            -122.47189521789551,
+            37.75626203719391
+          ],
+          [
+            -122.4816370010376,
+            37.74854259511082
+          ],
+          [
+            -122.50607728958131,
+            37.73439102138007
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00fdff",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": "[hunters_point,potrero,civic_center]"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.37001419067383,
+            37.72897741395954
+          ],
+          [
+            -122.39662170410156,
+            37.756397756443526
+          ],
+          [
+            -122.41928100585938,
+            37.77688850569985
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#942192",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": "[candlestick,mclaren,sutro,ggp,legion_of_honor,baker_beach]"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.48451232910155,
+            37.79143891711325
+          ],
+          [
+            -122.49938249588011,
+            37.785385072940564
+          ],
+          [
+            -122.4752426147461,
+            37.76867931763745
+          ],
+          [
+            -122.45275497436523,
+            37.755244134885736
+          ],
+          [
+            -122.42425918579102,
+            37.72320698914131
+          ],
+          [
+            -122.40391731262207,
+            37.727348163090745
+          ],
+          [
+            -122.39301681518555,
+            37.71526343378259
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#0433ff",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "line": "true",
+        "stops": "[treasure_island,yerba_buena_island,salesforce,bernal,mcclaren,crocker_amazon]"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.43653297424315,
+            37.713498083587254
+          ],
+          [
+            -122.42425918579102,
+            37.72327487910563
+          ],
+          [
+            -122.41524696350098,
+            37.743231830040905
+          ],
+          [
+            -122.39696502685547,
+            37.789912784665255
+          ],
+          [
+            -122.3686408996582,
+            37.8098517635444
+          ],
+          [
+            -122.37276077270506,
+            37.82415839321614
+          ]
+        ]
+      }
+    }
+  ]
+}
