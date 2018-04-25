@@ -728,7 +728,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "kind": "line",
-        "stops": "[sutro_heights,outer_richmond,inner_richmond,usf,alamo_square,civic_center,salesforce,]"
+        "stops": "sutro_heights,outer_richmond,inner_richmond,usf,alamo_square,civic_center,salesforce"
       },
       "geometry": {
         "type": "LineString",
@@ -771,7 +771,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "Hunters Point-SF Zoo",
-        "stops": "[hunters_point,bernal,diamond_heights,mount_davidson,sf_zoo]",
+        "stops": "hunters_point,bernal,diamond_heights,mount_davidson,sf_zoo",
         "line": "true"
       },
       "geometry": {
@@ -811,7 +811,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "[fort_funston,sf_state,orizaba,mount_davidson,sutro,corona_heights,alamo_swuare,alta_vista,russian_hill,pier_39]"
+        "stops": "fort_funston,sf_state,orizaba,mount_davidson,sutro,corona_heights,alamo_swuare,alta_vista,russian_hill,pier_39"
       },
       "geometry": {
         "type": "LineString",
@@ -866,7 +866,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "[ocean_beach,sutro,bernal,potrero,mission_bay,salesforce]"
+        "stops": "ocean_beach,sutro,bernal,potrero,mission_bay,salesforce"
       },
       "geometry": {
         "type": "LineString",
@@ -905,7 +905,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "[sf_zoo,sunset,grandview,ggp,usf,alamo_square,marina]"
+        "stops": "sf_zoo,sunset,grandview,ggp,usf,alamo_square,marina"
       },
       "geometry": {
         "type": "LineString",
@@ -948,7 +948,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "[hunters_point,potrero,civic_center]"
+        "stops": "hunters_point,potrero,civic_center"
       },
       "geometry": {
         "type": "LineString",
@@ -975,7 +975,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "kind": "line",
-        "stops": "[candlestick,mclaren,sutro,ggp,legion_of_honor,baker_beach]"
+        "stops": "candlestick,mclaren,sutro,ggp,legion_of_honor,baker_beach"
       },
       "geometry": {
         "type": "LineString",
@@ -1018,7 +1018,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "[treasure_island,yerba_buena_island,salesforce,bernal,mcclaren,crocker_amazon]"
+        "stops": "treasure_island,yerba_buena_island,salesforce,bernal,mcclaren,crocker_amazon"
       },
       "geometry": {
         "type": "LineString",
@@ -1101,7 +1101,8 @@
         "name": "Baker Beach Station",
         "station_id": "baker_beach",
         "access": "ground",
-        "kind": "station"
+        "kind": "station",
+        "stops": ""
       },
       "geometry": {
         "type": "Point",
@@ -1228,6 +1229,50 @@
           [
             -122.47639060020447,
             37.76801779379522
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff9300",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "kind": "line",
+        "name": "Potrero-Sutro Heights",
+        "stops": "potrero,liberty_hill,collingwood,twin_peaks,sutro_tower,de_young,sutro_heights"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.39687919616699,
+            37.75631293194169
+          ],
+          [
+            -122.4232292175293,
+            37.75756832463687
+          ],
+          [
+            -122.43054628372192,
+            37.75790761630304
+          ],
+          [
+            -122.44676828384398,
+            37.75454856025375
+          ],
+          [
+            -122.4528193473816,
+            37.755278065188314
+          ],
+          [
+            -122.4687623977661,
+            37.77154585257037
+          ],
+          [
+            -122.5120210647583,
+            37.77787219021958
           ]
         ]
       }
