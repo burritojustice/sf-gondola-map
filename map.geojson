@@ -521,8 +521,8 @@
             37.764939085753205
           ],
           [
-            -122.43447303771973,
-            37.77587088725018
+            -122.43460714817046,
+            37.775892087777414
           ],
           [
             -122.43764877319336,
@@ -1014,6 +1014,42 @@
         "coordinates": [
           -122.4392580986023,
           37.76491364135109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Alamo Square Station",
+        "station_id": "alamo_square",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43458032608032,
+          37.77577336474656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Alta Plaza Station",
+        "station_id": "alta_plaza",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43768900632858,
+          37.7914240798662
         ]
       }
     }
