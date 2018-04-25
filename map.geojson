@@ -7,78 +7,6 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Sutro-Bernal",
-        "start": "sutro",
-        "end": "bernal"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.4151825904846,
-            37.74311305458044
-          ],
-          [
-            -122.45282739400864,
-            37.75522929037348
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Sutro-Ocean Beach (Noriega)",
-        "end": "sutro",
-        "start": "ocean_beach"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.45283007621765,
-            37.755231411018265
-          ],
-          [
-            -122.5095748901367,
-            37.75286897503704
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Bernal-Potrero",
-        "start": "bernal",
-        "end": "potrero"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.41517990827559,
-            37.74311093358834
-          ],
-          [
-            -122.39698648452759,
-            37.75619417747575
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Sutro-Mount Davidson",
         "start": "sutro",
         "end": "mount_davidson"
@@ -93,54 +21,6 @@
           [
             -122.45569467544556,
             37.738862464436956
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Mount Davidson-Diamond Heights",
-        "start": "mount_davidson",
-        "end": "diamond_heights"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.45569467544556,
-            37.73887094889193
-          ],
-          [
-            -122.43994474411011,
-            37.743757833360355
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Bernal-Diamond Heights",
-        "start": "bernal",
-        "end": "diamond_heights"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.43992328643797,
-            37.743774801147126
-          ],
-          [
-            -122.41517722606658,
-            37.74311729656446
           ]
         ]
       }
@@ -176,35 +56,6 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Bernal/McLaren Park (La Grande Tank)",
-        "start": "bernal",
-        "stop": "",
-        "end": "mclaren"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.41517186164856,
-            37.743138506480875
-          ],
-          [
-            -122.42422699928284,
-            37.72312212659839
-          ],
-          [
-            -122.43636131286621,
-            37.71343018466285
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Mount Davidson-Oceanview",
         "start": "mount_davidson",
         "end": "oceanview"
@@ -219,155 +70,6 @@
           [
             -122.46262550354004,
             37.718149011800215
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Sutro-Golden Gate Park (De Young)",
-        "start": "sutro",
-        "end": "ggp"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.45283007621765,
-            37.75523565230765
-          ],
-          [
-            -122.46880531311034,
-            37.771494968303685
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Golden Gate Park-Sutro Heights",
-        "start": "ggp",
-        "end": "sutro_heights",
-        "kind": "segment"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.46879994869231,
-            37.771494968303685
-          ],
-          [
-            -122.51204252243043,
-            37.77788915018273
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Potrero-Mission Bay",
-        "start": "potrero",
-        "end": "mission_bay"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.39697575569151,
-            37.756219624877346
-          ],
-          [
-            -122.38872528076173,
-            37.77364903829084
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Mount Davidson-SF Zoo",
-        "start": "mount_davidson",
-        "end": "sf_zoo"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.45568931102753,
-            37.73887094889193
-          ],
-          [
-            -122.50644207000734,
-            37.73464556997969
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Sutro-Corona Heights (Randall Museum)",
-        "start": "sutro",
-        "end": "corona_heights"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.45280861854552,
-            37.75523565230765
-          ],
-          [
-            -122.43902206420898,
-            37.7648288266142
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Corona Heights (Randall)-Alta Plaza",
-        "start": "corona_heights",
-        "end": "alta_plaza"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.43902206420898,
-            37.76484578956936
-          ],
-          [
-            -122.43458032608032,
-            37.77573520373188
-          ],
-          [
-            -122.4376916885376,
-            37.791286305286874
           ]
         ]
       }
@@ -437,30 +139,6 @@
           [
             -122.40583777427672,
             37.80237527720156
-          ],
-          [
-            -122.39692747592925,
-            37.789789844846204
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Bernal-SOMA (Salesforce Tower)",
-        "start": "bernal",
-        "end": "salesforce"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.41517186164856,
-            37.743138506480875
           ],
           [
             -122.39692747592925,
@@ -728,7 +406,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "kind": "line",
-        "stops": "sutro_heights,outer_richmond,inner_richmond,usf,alamo_square,civic_center,salesforce"
+        "stops": "sutro_heights,outer_richmond,inner_richmond,usf,alamo_square,civic_center,salesforce",
+        "name": "Salesforce Tower-Cilff House"
       },
       "geometry": {
         "type": "LineString",
@@ -810,8 +489,9 @@
         "stroke": "#fffb00",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "line": "true",
-        "stops": "fort_funston,sf_state,orizaba,mount_davidson,sutro,corona_heights,alamo_swuare,alta_vista,russian_hill,pier_39"
+        "kind": "line",
+        "stops": "fort_funston,sf_state,orizaba,mount_davidson,sutro,corona_heights,alamo_swuare,alta_vista,russian_hill,pier_39",
+        "name": "Fort Funston-Pier 39"
       },
       "geometry": {
         "type": "LineString",
@@ -837,8 +517,8 @@
             37.755244134885736
           ],
           [
-            -122.43885040283203,
-            37.76501541890696
+            -122.4392580986023,
+            37.764939085753205
           ],
           [
             -122.43447303771973,
@@ -1274,6 +954,66 @@
             -122.5120210647583,
             37.77787219021958
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kind": "station",
+        "name": "USF",
+        "station_id": "usf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45207905769347,
+          37.779339212642824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "kind": "funicular",
+        "name": "Corona Heights Funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.43850708007811,
+            37.76461678934645
+          ],
+          [
+            -122.43922591209412,
+            37.76492212281942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Corona Heights-Randall Museum",
+        "kind": "station",
+        "station_id": "corona_heights",
+        "access": "funicular"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4392580986023,
+          37.76491364135109
         ]
       }
     }
