@@ -980,8 +980,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.48451232910155,
-            37.79143891711325
+            -122.48327851295471,
+            37.79271067007465
           ],
           [
             -122.49938249588011,
@@ -1046,6 +1046,65 @@
             -122.37276077270506,
             37.82415839321614
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Crissy Field Station",
+        "station_id": "crissy_field",
+        "access": "funicular"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47065067291258,
+          37.80548633342434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Crissy Field Funicular",
+        "funicular": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.47057557106017,
+            37.80553719429016
+          ],
+          [
+            -122.46918082237244,
+            37.80631705651317
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Baker Beach Station",
+        "station_id": "baker_beach",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4832248687744,
+          37.792676756946406
         ]
       }
     }
