@@ -255,7 +255,8 @@
         "stroke-opacity": 1,
         "name": "Golden Gate Park-Sutro Heights",
         "start": "ggp",
-        "end": "sutro_heights"
+        "end": "sutro_heights",
+        "kind": "segment"
       },
       "geometry": {
         "type": "LineString",
@@ -666,7 +667,7 @@
         "stroke": "#942192",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "line": "true",
+        "kind": "line",
         "stops": ""
       },
       "geometry": {
@@ -726,7 +727,7 @@
         "stroke": "#00f900",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "line": "true",
+        "kind": "line",
         "stops": "[sutro_heights,outer_richmond,inner_richmond,usf,alamo_square,civic_center,salesforce,]"
       },
       "geometry": {
@@ -973,7 +974,7 @@
         "stroke": "#942192",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "line": "true",
+        "kind": "line",
         "stops": "[candlestick,mclaren,sutro,ggp,legion_of_honor,baker_beach]"
       },
       "geometry": {
@@ -984,12 +985,12 @@
             37.79271067007465
           ],
           [
-            -122.49938249588011,
-            37.785385072940564
+            -122.49920010566711,
+            37.78562248793752
           ],
           [
-            -122.4752426147461,
-            37.76867931763745
+            -122.47616529464722,
+            37.76860298826534
           ],
           [
             -122.45275497436523,
@@ -1057,7 +1058,8 @@
         "marker-symbol": "",
         "name": "Crissy Field Station",
         "station_id": "crissy_field",
-        "access": "funicular"
+        "access": "funicular",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
@@ -1074,7 +1076,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "Crissy Field Funicular",
-        "funicular": "true"
+        "kind": "funicular"
       },
       "geometry": {
         "type": "LineString",
@@ -1098,13 +1100,135 @@
         "marker-symbol": "",
         "name": "Baker Beach Station",
         "station_id": "baker_beach",
-        "access": "ground"
+        "access": "ground",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -122.4832248687744,
           37.792676756946406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Legion of Honor",
+        "station_id": "legion_of_honor",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49917864799498,
+          37.78557161335955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Sutro Heights Station",
+        "station_id": "sutro_heights",
+        "access": "funicular",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.51207470893858,
+          37.77783827028162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Sutro Heights Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.51210689544676,
+            37.77788915018273
+          ],
+          [
+            -122.51356601715086,
+            37.77854210580507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "GGP-De Young Station",
+        "station_id": "de_young",
+        "access": "elevator",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46883749961853,
+          37.77148648758917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "GGP-Strawberry Hill",
+        "station_id": "strawberry_hill",
+        "access": "funicular",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47612237930298,
+          37.7685690640747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Strawberry Hill Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.47614383697511,
+            37.76860298826534
+          ],
+          [
+            -122.47639060020447,
+            37.76801779379522
+          ]
         ]
       }
     }
