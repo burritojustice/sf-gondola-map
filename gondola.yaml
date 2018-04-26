@@ -12,7 +12,7 @@ import:
 
 sources:
     _gondola:
-        url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/map.geojson
+        url: gondola.geojson
         # url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/map.geojson
         # url_params: 
         #     app_id: global.app_id
