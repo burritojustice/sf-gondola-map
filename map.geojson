@@ -684,7 +684,8 @@
         "marker-symbol": "",
         "kind": "station",
         "name": "USF",
-        "station_id": "usf"
+        "station_id": "usf",
+        "access": "elevator"
       },
       "geometry": {
         "type": "Point",
