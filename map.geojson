@@ -141,7 +141,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "Bernal-Fort Mason",
-        "stations": "bernal,civic_center,russian_hill,fort_mason"
+        "stations": "bernal,civic_center,russian_hill,fort_mason",
+        "kind": "line"
       },
       "geometry": {
         "type": "LineString",
@@ -300,8 +301,8 @@
             37.79828916777156
           ],
           [
-            -122.41018295288085,
-            37.81025862543724
+            -122.41064429283142,
+            37.81068243752503
           ]
         ]
       }
@@ -926,8 +927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.41026878356932,
-          37.81120796113546
+          -122.41060137748718,
+          37.81065700886835
         ]
       }
     },
@@ -1612,6 +1613,62 @@
         "coordinates": [
           -122.44085669517517,
           37.806401823649885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Diamond Heights",
+        "kind": "station",
+        "station_id": "diamond_heights",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43906497955322,
+          37.74367299436812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Inner Richmond",
+        "kind": "station",
+        "access": "elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46464788913725,
+          37.780992757927905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Outer Richmond",
+        "kind": "station",
+        "station_id": "outer_richmond",
+        "access": "elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47830569744109,
+          37.78039494197859
         ]
       }
     }
