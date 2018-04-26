@@ -1444,7 +1444,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "SF State/Parc Merced station",
-        "kind": "statino",
+        "kind": "station",
         "access": "ground",
         "station_id": "sf_state"
       },
