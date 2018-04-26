@@ -80,54 +80,6 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Alta Plaza-Presidio (Crissy Field)",
-        "start": "alta_plaza",
-        "end": "presidio"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.43769705295561,
-            37.791286305286874
-          ],
-          [
-            -122.47065067291258,
-            37.80556262470994
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Alta Plaza-Russian Hll",
-        "start": "alta_plaza",
-        "end": "russian_hill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.43768095970154,
-            37.79130326217203
-          ],
-          [
-            -122.41739273071288,
-            37.79825313779303
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Salesforce Tower-Telegraph Hill",
         "start": "salesforce",
         "stop": "",
@@ -209,8 +161,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.41739273071288,
-            37.798251018382
+            -122.41737395524979,
+            37.79829128718149
           ],
           [
             -122.40584313869475,
@@ -263,30 +215,6 @@
           [
             -122.39692211151123,
             37.789789844846204
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Russian Hill-Pier 39",
-        "from": "russian_hill",
-        "end": "pier_39"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.41739273071288,
-            37.79828916777156
-          ],
-          [
-            -122.41031169891356,
-            37.80880069327815
           ]
         ]
       }
@@ -369,8 +297,12 @@
             37.77688850569985
           ],
           [
-            -122.41739273071288,
+            -122.41737127304077,
             37.79825525720401
+          ],
+          [
+            -122.42827177047728,
+            37.80715624687999
           ]
         ]
       }
@@ -505,12 +437,12 @@
             37.79154065815569
           ],
           [
-            -122.41730690002441,
-            37.79839089938073
+            -122.41737127304077,
+            37.79828916777156
           ],
           [
             -122.41018295288085,
-            37.80910584425156
+            37.81025862543724
           ]
         ]
       }
@@ -548,8 +480,16 @@
             37.774106982088796
           ],
           [
-            -122.39696502685547,
-            37.78998061344339
+            -122.39687919616699,
+            37.789844955824854
+          ],
+          [
+            -122.40580558776857,
+            37.80239223154157
+          ],
+          [
+            -122.42142677307127,
+            37.82537873563541
           ]
         ]
       }
@@ -1019,7 +959,8 @@
         "marker-symbol": "",
         "name": "Alta Plaza Station",
         "station_id": "alta_plaza",
-        "access": "ground"
+        "access": "ground",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
@@ -1080,6 +1021,62 @@
         "coordinates": [
           -122.38859653472899,
           37.77407306042325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Coit Tower Station",
+        "station_id": "coit_tower",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40589141845703,
+          37.80205314400207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Pier 39",
+        "station_id": "pier_39",
+        "access": "ground",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41026878356932,
+          37.81120796113546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "SOMA-Salesforce",
+        "station_id": "salesforce",
+        "access": "elevator",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39722251892091,
+          37.789844955824854
         ]
       }
     }
