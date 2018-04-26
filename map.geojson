@@ -549,8 +549,8 @@
             37.723147585371464
           ],
           [
-            -122.40391731262207,
-            37.727348163090745
+            -122.40363836288452,
+            37.72764516461848
           ],
           [
             -122.39301681518555,
@@ -1181,6 +1181,216 @@
         "coordinates": [
           -122.4242377281189,
           37.723139099114746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Amazon-Crocker Station",
+        "kind": "station",
+        "access": "ground",
+        "station_id": "amazon_crocker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43644714355469,
+          37.71356598244947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "kind": "station",
+        "name": "Portola",
+        "station_id": "portola",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40363836288452,
+          37.72764516461848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Candlestick Station",
+        "station_id": "candlestick",
+        "kind": "station",
+        "access": "funicular"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39310264587401,
+          37.71512763910703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Candlestick Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.39310264587401,
+            37.71543317677706
+          ],
+          [
+            -122.38821029663086,
+            37.71618004133281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Hunters Point Station",
+        "kind": "station",
+        "station_id": "hunters_point",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.37010002136229,
+          37.72873981710696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Potrero Station",
+        "kind": "station",
+        "access": "funicular",
+        "station_id": "potrero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39683628082275,
+          37.75616024759331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Potrero Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.39233016967773,
+            37.75770404149008
+          ],
+          [
+            -122.39462614059448,
+            37.757559842325286
+          ],
+          [
+            -122.3968255519867,
+            37.75631293194169
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Mount Davidson",
+        "station_id": "mount_davidson",
+        "access": "funicular",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45575904846193,
+          37.73875216643384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Mount Davidson-Portola Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45584487915039,
+            37.73892185560132
+          ],
+          [
+            -122.45747566223145,
+            37.74100900054547
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Mount Davidson-Miraloma Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.45159626007079,
+            37.7377509924285
+          ],
+          [
+            -122.45563030242919,
+            37.738837011066195
+          ]
         ]
       }
     }
