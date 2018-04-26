@@ -32,79 +32,6 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Salesforce Tower-Telegraph Hill",
-        "start": "salesforce",
-        "stop": "",
-        "end": "telegraph_hill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.40583777427672,
-            37.80237527720156
-          ],
-          [
-            -122.39692747592925,
-            37.789789844846204
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "SOMA (Salesforce Tower)-Yerba Buena",
-        "start": "salesforce",
-        "end": "yerba_buena"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.39692479372025,
-            37.789789844846204
-          ],
-          [
-            -122.36838340759277,
-            37.80971614241525
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Yerba Buena Island-Treasure Island",
-        "start": "yerba_buena",
-        "end": "treasure_island"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.36838340759277,
-            37.80971614241525
-          ],
-          [
-            -122.36813664436342,
-            37.81734444384821
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Telegraph Hill-Russian Hill",
         "start": "telegraph_hill",
         "end": "russian_hill"
@@ -174,35 +101,12 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Russian Hill-Fort Mason",
-        "start": "russian_hill",
-        "end": "fort_mason"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42837905883789,
-            37.80722405982652
-          ],
-          [
-            -122.41737127304077,
-            37.79828916777156
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#942192",
         "stroke-width": 2,
         "stroke-opacity": 1,
         "kind": "line",
-        "stops": ""
+        "stops": "presidio,alta_park,st_marys,civic_center,mission_bay",
+        "name": "Mission Bay-Presidio"
       },
       "geometry": {
         "type": "LineString",
@@ -235,7 +139,9 @@
       "properties": {
         "stroke": "#ff2600",
         "stroke-width": 2,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "name": "Bernal-Fort Mason",
+        "stations": "bernal,civic_center,russian_hill,fort_mason"
       },
       "geometry": {
         "type": "LineString",
@@ -267,7 +173,7 @@
         "stroke-opacity": 1,
         "kind": "line",
         "stops": "sutro_heights,outer_richmond,inner_richmond,usf,alamo_square,civic_center,salesforce",
-        "name": "Salesforce Tower-Cilff House"
+        "name": "Salesforce Tower-Cliff House"
       },
       "geometry": {
         "type": "LineString",
@@ -311,7 +217,8 @@
         "stroke-opacity": 1,
         "name": "Hunters Point-SF Zoo",
         "stops": "hunters_point,bernal,diamond_heights,mount_davidson,sf_zoo",
-        "line": "true"
+        "line": "true",
+        "kind": "line"
       },
       "geometry": {
         "type": "LineString",
@@ -406,7 +313,10 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "ocean_beach,sutro,bernal,potrero,mission_bay,salesforce"
+        "stops": "ocean_beach,sutro_tower,bernal,potrero,mission_bay,salesforce,telegraph_hill,alcatraz",
+        "name": "Ocean Beach-Alcatraz",
+        "id": "ocean_beach_alcatraz",
+        "kind": "line"
       },
       "geometry": {
         "type": "LineString",
@@ -453,7 +363,9 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "sf_zoo,sunset,grandview,ggp,usf,alamo_square,marina"
+        "stops": "sf_zoo,sunset,grandview,ggp,usf,alamo_square,marina",
+        "name": "Marina-SF Zoo",
+        "kind": "line"
       },
       "geometry": {
         "type": "LineString",
@@ -496,7 +408,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "hunters_point,potrero,civic_center"
+        "stops": "hunters_point,potrero,civic_center",
+        "kind": "line"
       },
       "geometry": {
         "type": "LineString",
@@ -523,7 +436,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "kind": "line",
-        "stops": "candlestick,mclaren,sutro,ggp,legion_of_honor,baker_beach"
+        "stops": "candlestick,mclaren,sutro,ggp,legion_of_honor,baker_beach",
+        "name": "Candlestick-Baker Beach"
       },
       "geometry": {
         "type": "LineString",
@@ -566,7 +480,10 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "line": "true",
-        "stops": "treasure_island,yerba_buena_island,salesforce,bernal,mcclaren,crocker_amazon"
+        "stops": "treasure_island,yerba_buena_island,salesforce,bernal,mcclaren,crocker_amazon",
+        "name": "Treasure Island-Crocker Amazon",
+        "id": "treasure_island_crocker_amazon",
+        "kind": "line"
       },
       "geometry": {
         "type": "LineString",
@@ -889,7 +806,8 @@
         "marker-symbol": "",
         "name": "Alamo Square Station",
         "station_id": "alamo_square",
-        "access": "ground"
+        "access": "ground",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
@@ -926,7 +844,9 @@
         "marker-symbol": "",
         "name": "Geary & Gough (St. Mary's)",
         "station_id": "st_marys",
-        "access": "elevator"
+        "access": "elevator",
+        "start": "",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
@@ -944,7 +864,8 @@
         "marker-symbol": "",
         "name": "Civic Center (100 Van Ness)",
         "station_id": "civic_center",
-        "access": "elevator"
+        "access": "elevator",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
@@ -962,7 +883,8 @@
         "marker-symbol": "",
         "name": "Mission Bay",
         "station_id": "mission_bay",
-        "access": "ground"
+        "access": "ground",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
@@ -1174,7 +1096,9 @@
         "marker-symbol": "",
         "name": "McLaren Park / La Grande Tank",
         "station_id": "mclaren",
-        "access": "elevator"
+        "access": "elevator",
+        "start": "",
+        "kind": "station"
       },
       "geometry": {
         "type": "Point",
@@ -1391,6 +1315,303 @@
             -122.45563030242919,
             37.738837011066195
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "SF Zoo",
+        "kind": "station",
+        "station_id": "sf_zoo",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50612020492555,
+          37.73428920169516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ocean Beach",
+        "kind": "station",
+        "station_id": "ocean_beach",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50963926315308,
+          37.75283504362966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Grand View Station",
+        "kind": "station",
+        "station_id": "grand_view",
+        "access": "funicular"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47185230255127,
+          37.75621114241111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "19th-Grand View Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.47183084487914,
+            37.75638079155093
+          ],
+          [
+            -122.47650861740114,
+            37.75612631769532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Quintara Station",
+        "kind": "station",
+        "station_id": "quintara",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48164772987366,
+          37.748483211665814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Orizaba Station",
+        "kind": "station",
+        "station_id": "orizaba",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4626040458679,
+          37.71811506447689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "SF State/Parc Merced station",
+        "kind": "statino",
+        "access": "ground",
+        "station_id": "sf_state"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4780750274658,
+          37.71998214416055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Fort Funston",
+        "kind": "station",
+        "station_id": "fort_funston",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50236511230467,
+          37.71434681489259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Yerba Buena Island Station",
+        "kind": "station",
+        "station_id": "yerba_buena",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.36866235733034,
+          37.80986871616804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Treasure Island Station",
+        "kind": "station",
+        "station_id": "treasure_island",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.37268567085265,
+          37.82414991854547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Alcatraz Station",
+        "kind": "station",
+        "station_id": "alcatraz",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42142677307127,
+          37.82537873563541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Fort Mason",
+        "kind": "station",
+        "station_id": "fort_mason",
+        "access": "funicular"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42829322814941,
+          37.80713929363364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "kind": "funicular",
+        "name": "Fort Mason-Aquatic Park Funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42826104164124,
+            37.807164723501714
+          ],
+          [
+            -122.42445230484007,
+            37.80657983432025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "kind": "funicular",
+        "name": "Fort Mason-Marina Funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42828249931334,
+            37.80717320012246
+          ],
+          [
+            -122.4320375919342,
+            37.805274412773024
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Marina",
+        "kind": "station",
+        "station_id": "marina",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44085669517517,
+          37.806401823649885
         ]
       }
     }
