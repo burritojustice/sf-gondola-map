@@ -153,30 +153,6 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "SOMA (Salesforce Tower)-Mission Bay",
-        "start": "salesforce",
-        "end": "mission_bay"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.38871991634367,
-            37.773657518757325
-          ],
-          [
-            -122.39692479372025,
-            37.789789844846204
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "SOMA (Salesforce Tower)-Yerba Buena",
         "start": "salesforce",
         "end": "yerba_buena"
@@ -368,8 +344,8 @@
             37.776854585310524
           ],
           [
-            -122.38876819610596,
-            37.77363207735496
+            -122.38855361938475,
+            37.77407306042325
           ]
         ]
       }
@@ -1050,6 +1026,60 @@
         "coordinates": [
           -122.43768900632858,
           37.7914240798662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Geary & Gough (St. Mary's)",
+        "station_id": "st_marys",
+        "access": "elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42533206939696,
+          37.78424038278745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Civic Center (100 Van Ness)",
+        "station_id": "civic_center",
+        "access": "elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41929173469542,
+          37.77683762511003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Mission Bay",
+        "station_id": "mission_bay",
+        "access": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38859653472899,
+          37.77407306042325
         ]
       }
     }
