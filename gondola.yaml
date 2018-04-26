@@ -1,0 +1,114 @@
+import:
+    - https://www.nextzen.org/carto/refill-style/refill-style.zip
+    # - https://www.nextzen.org/carto/refill-style/11/themes/color-inverted.zip
+    # - https://www.nextzen.org/carto/refill-style/11/themes/color-gray-gold.zip
+    - https://gist.githubusercontent.com/burritojustice/12e5f901fd1f48318ad9b1aded1bb2b3/raw/demo.yaml
+    - https://www.nextzen.org/carto/refill-style/11/themes/label-7.zip
+    # - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
+    #- https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
+    # - https://www.nextzen.org/carto/refill-style/themes/terrain-pattern.zip
+    #- https://www.nextzen.org/carto/refill-style/11/themes/terrain-pattern-dark.zip
+
+
+sources:
+    _gondola:
+        url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/map.geojson
+        # url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/map.geojson
+        # url_params: 
+        #     app_id: global.app_id
+        #     app_code: global.app_code
+        type: GeoJSON
+
+        
+layers:
+    _gondola:
+        # enabled: false
+        data: {source: _gondola}       
+        _stations:
+            filter: {kind: station}
+            draw:
+                mapzen_icon_library:
+                    collide: false
+                    sprite: aerialway
+                    priority: 1
+                    # color: [0,1,0,0.8]
+
+                    size: 20px
+                    # order: 1002
+
+                    text:
+                        # collide: false
+                        optional: true
+                        priority: 1
+                        font:
+                            size: 10px
+                            fill: darkgreen
+                            stroke:
+                                color: white
+                                width: 3
+        _icon_border_color:
+            filter: {kind: station}
+            draw:
+                points:
+                    size: 30px
+                    collide: false
+                    color: | 
+                        function(){
+                            var station = feature.access
+                            var color = [0,1,0,0.5]
+                            if (station == "funicular"){
+                                return [1,0,0,0.5]
+                                }
+                            if (station == "elevator"){
+                                return [0,0,1,0.5]
+                                }
+                            if (station == "ground"){
+                                return [0,1,0,0.5]}
+                            
+                        }
+                    outline:
+                        color: [0,0,0,0.5]
+                        width: 1px
+                
+        _lines:
+            filter: {kind: line}
+            # filter: {}
+            draw:
+                lines:
+                    # priority: 1
+                    # color: [1,0,0,0.5]
+                    color: function(){return feature.stroke}
+                    width: 2px
+                    order: 1002
+                    outline:
+                        color: [0,0,0,0.3]
+                        width: 1px
+                text:
+                    priority: 1
+                    font:
+                        size: 12px
+                        fill: yellow
+                        stroke:
+                            color: grey
+                            width: 3px
+        _funicular:
+            filter: {kind: funicular}
+            draw:
+                lines:
+                    # priority: 1
+                    # color: [1,0,0,0.5]
+                    color: white
+                    width: 3px
+                    order: 1002
+                    outline:
+                        color: red
+                        width: 3px
+                text:
+                    priority: 1
+                    font:
+                        size: 12px
+                        fill: white
+                        stroke:
+                            color: black
+                            width: 3px
+                    
