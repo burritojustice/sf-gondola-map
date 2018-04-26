@@ -7,30 +7,6 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Sutro-Mount Davidson",
-        "start": "sutro",
-        "end": "mount_davidson"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.45283007621765,
-            37.755244134885736
-          ],
-          [
-            -122.45569467544556,
-            37.738862464436956
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Bernal-Hunter's Point",
         "start": "bernal",
         "stop": "",
@@ -46,30 +22,6 @@
           [
             -122.3836612701416,
             37.732931592516834
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Mount Davidson-Oceanview",
-        "start": "mount_davidson",
-        "end": "oceanview"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.45569199323654,
-            37.738873070005525
-          ],
-          [
-            -122.46262550354004,
-            37.718149011800215
           ]
         ]
       }
@@ -593,8 +545,8 @@
             37.755244134885736
           ],
           [
-            -122.42425918579102,
-            37.72320698914131
+            -122.4242055416107,
+            37.723147585371464
           ],
           [
             -122.40391731262207,
@@ -624,12 +576,8 @@
             37.713498083587254
           ],
           [
-            -122.42425918579102,
-            37.72327487910563
-          ],
-          [
-            -122.41524696350098,
-            37.743231830040905
+            -122.42422699928284,
+            37.723147585371464
           ],
           [
             -122.39696502685547,
@@ -1077,6 +1025,162 @@
         "coordinates": [
           -122.39722251892091,
           37.789844955824854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Sutro Tower Station",
+        "kind": "station",
+        "station_id": "sutro_tower",
+        "access": "elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45279788970947,
+          37.75526110003896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Liberty Hill",
+        "station_id": "liberty_hill",
+        "kind": "station",
+        "access": "elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43048191070557,
+          37.75795850991872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Bernal Station",
+        "station_id": "bernal",
+        "access": "funicular",
+        "kind": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41511821746826,
+          37.74326576585172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Cortland-Bernal Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4151611328125,
+            37.74340150893946
+          ],
+          [
+            -122.41528987884521,
+            37.739023668915095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Folsom-Bernal Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.41370201110841,
+            37.748322027789115
+          ],
+          [
+            -122.41327285766602,
+            37.74408022064398
+          ],
+          [
+            -122.41507530212402,
+            37.743503316091896
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Esmerelda Funicular",
+        "kind": "funicular"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4152147769928,
+            37.74331666953879
+          ],
+          [
+            -122.4167490005493,
+            37.742934891032384
+          ],
+          [
+            -122.41947412490845,
+            37.74407173678608
+          ],
+          [
+            -122.42055773735046,
+            37.74452137991442
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "McLaren Park / La Grande Tank",
+        "station_id": "mclaren",
+        "access": "elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4242377281189,
+          37.723139099114746
         ]
       }
     }
