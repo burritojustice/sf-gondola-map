@@ -1,0 +1,68 @@
+import:
+    - https://www.nextzen.org/carto/refill-style/refill-style.zip
+    # - https://www.nextzen.org/carto/refill-style/11/themes/color-inverted.zip
+    # - https://www.nextzen.org/carto/refill-style/11/themes/color-gray-gold.zip
+    - https://gist.githubusercontent.com/burritojustice/12e5f901fd1f48318ad9b1aded1bb2b3/raw/demo.yaml
+    - https://www.nextzen.org/carto/refill-style/11/themes/label-7.zip
+    # - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
+    #- https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
+    # - https://www.nextzen.org/carto/refill-style/themes/terrain-pattern.zip
+    #- https://www.nextzen.org/carto/refill-style/11/themes/terrain-pattern-dark.zip
+
+
+sources:
+    _elevation_100:
+        url: https://gist.githubusercontent.com/burritojustice/a3057ba4bc214c5b5015207a249eccd6/raw/sf_contours_100.geojson
+        # url: https://burritojustice.github.io/sf-gondola-map/sf_contours_10.geojson.zip
+        # url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/map.geojson
+        # url_params: 
+        #     app_id: global.app_id
+        #     app_code: global.app_code
+        type: GeoJSON
+    _elevation_10:
+        url: https://maphub.cit.api.here.com/geospace/x-sf-elevation/tile/web/{z}_{x}_{y}
+        url_params: 
+            app_id: global.app_id
+            app_code: global.app_code
+        type: GeoJSON
+        
+        
+layers:
+    buildings:
+        enabled: false
+    _elevation:
+        # enabled: false
+        data: {source: _elevation_10}       
+        _lines:
+            # filter: {kind: line}
+            # filter: {}
+            draw:
+                lines:
+                    color: grey
+                    width: 0.3px
+                    order: 2000
+                polygons:
+                    # priority: 1
+                    color: |
+                        function(){
+                            var color = 210 - (feature.elevation + 400)/5
+                            return "hsl(" + color + ",100%,50%)"
+                            }
+                    # color: [1,0,0,0.5]
+                    # color: function(){return feature.stroke}
+                    width: 1px
+                    order: function(){return ((1000 + feature.elevation)/100) + 200} 
+                    outline:
+                        color: [0,0,0,0.3]
+                        width: 0.5px
+                # text:
+                #     priority: 1
+                #     text_source: elevation
+                #     font:
+                #         size: 12px
+                #         fill: yellow
+                #         stroke:
+                #             color: grey
+                #             width: 3px
+                    
+                    
