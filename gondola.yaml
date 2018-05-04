@@ -12,9 +12,9 @@ import:
 
 sources:
     _elevation:
-        # url: https://gist.githubusercontent.com/burritojustice/a3057ba4bc214c5b5015207a249eccd6/raw/5c946a61e4606a26fde6d83c3f59a94df6ec1709/sf_contours_100.geojson
+        url: https://gist.githubusercontent.com/burritojustice/a3057ba4bc214c5b5015207a249eccd6/raw/5c946a61e4606a26fde6d83c3f59a94df6ec1709/sf_contours_100.geojson
         # url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/gondola.geojson
-        url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/4865d81af0076b82bb85b96dd83476bcfae2d800/gondola.geojson
+        # url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/gondola.geojson
         # url_params: 
         #     app_id: global.app_id
         #     app_code: global.app_code
@@ -33,14 +33,34 @@ sources:
         #     app_id: global.app_id
         #     app_code: global.app_code
         type: GeoJSON
-
+    _sf:
+        url: https://raw.githubusercontent.com/burritojustice/sf-gondola-map/master/sf_county.geojson
+        type: GeoJSON
         
 layers:
+    _sf:
+        enabled: false
+        data: {source: _sf}
+        draw:
+            lines:
+                color: blue
+                width: 2px
+                order: 100
+                dash: [1, 1]                
+
+                outline:
+                    color: aqua
+                    width: 1px
+ 
     _gondola:
         # enabled: false
         data: {source: _gondola}       
         _stations:
-            filter: {kind: station}
+            filter: 
+                all:
+                    - kind: station
+                    - $zoom: {min: 11}
+
             draw:
                 mapzen_icon_library:
                     collide: false
@@ -62,7 +82,10 @@ layers:
                                 color: white
                                 width: 3
         _icon_border_color:
-            filter: {kind: station}
+            filter: 
+                all:
+                    - kind: station
+                    - $zoom: {min: 12}
             draw:
                 points:
                     size: 30px
@@ -106,6 +129,26 @@ layers:
                         stroke:
                             color: grey
                             width: 3px
+        _borders:
+            filter: {kind: border}
+            draw:
+                lines:
+                    color: blue
+                    width: 2px
+                    order: 100
+                    dash: [1, 1]                
+
+                    outline:
+                        color: aqua
+                        width: 3px
+                text:
+                    priority: 1
+                    font:
+                        size: 12px
+                        fill: aqua
+                        stroke:
+                            color: darkblue
+                            width: 2px
         _funicular:
             filter: {kind: funicular}
             draw:
