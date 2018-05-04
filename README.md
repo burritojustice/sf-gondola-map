@@ -12,6 +12,7 @@ A modest proposal for a San Francisco aerial gondola system, with funiculars.
 - Bernal Station
 - Buena Vista Park
 - Candlestick Station
+- CCSF
 - Civic Center (100 Van Ness)
 - Coit Tower Station
 - Cole Valley
@@ -72,6 +73,7 @@ A modest proposal for a San Francisco aerial gondola system, with funiculars.
 - Portola-Ferry Building
 - Potrero-Connecticut Funcicular
 - Potrero-Sutro Heights
+- Outer Richmond-CCSF
 - Salesforce Tower-Cliff House
 - Secret Safeway Connector
 - Stern Grove-Salesforce
