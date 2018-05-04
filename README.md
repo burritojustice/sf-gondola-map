@@ -3,6 +3,11 @@ A modest proposal for a San Francisco aerial gondola system, with funiculars.
 
 ![sf gondola network](sf%20gondola%20network.jpg)
 
+colored circles indicate station access:
+- green = ground
+- blue = elevator
+- red = funicular
+
 # Stations
 - Alamo Square Station
 - Alcatraz Station
