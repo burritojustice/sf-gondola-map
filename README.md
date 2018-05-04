@@ -75,7 +75,7 @@ A modest proposal for a San Francisco aerial gondola system, with funiculars.
 - Stern Grove-Salesforce
 - Treasure Island-Crocker Amazon
 
-#Funiculars
+# Funiculars
 - 19th-Grand View Funicular
 - Candlestick Funicular
 - Corona Heights Funicular
