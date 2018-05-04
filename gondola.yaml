@@ -5,15 +5,30 @@ import:
     - https://gist.githubusercontent.com/burritojustice/12e5f901fd1f48318ad9b1aded1bb2b3/raw/demo.yaml
     - https://www.nextzen.org/carto/refill-style/11/themes/label-7.zip
     # - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
-    #- https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
+    - https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
     # - https://www.nextzen.org/carto/refill-style/themes/terrain-pattern.zip
-    #- https://www.nextzen.org/carto/refill-style/11/themes/terrain-pattern-dark.zip
+    # - https://www.nextzen.org/carto/refill-style/11/themes/terrain-pattern-dark.zip
 
 
 sources:
+    _elevation:
+        # url: https://gist.githubusercontent.com/burritojustice/a3057ba4bc214c5b5015207a249eccd6/raw/5c946a61e4606a26fde6d83c3f59a94df6ec1709/sf_contours_100.geojson
+        # url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/gondola.geojson
+        url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/4865d81af0076b82bb85b96dd83476bcfae2d800/gondola.geojson
+        # url_params: 
+        #     app_id: global.app_id
+        #     app_code: global.app_code
+        type: GeoJSON
+    _elevation_10:
+        url: https://maphub.cit.api.here.com/geospace/x-sf-elevation/tile/web/{z}_{x}_{y}
+        url_params: 
+            app_id: global.app_id
+            app_code: global.app_code
+        type: GeoJSON
+
     _gondola:
-        url: gondola.geojson
         # url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/map.geojson
+        url: https://gist.githubusercontent.com/burritojustice/1eac5147a00cb7f2444309a66e034dd5/raw/gondola.geojson
         # url_params: 
         #     app_id: global.app_id
         #     app_code: global.app_code
@@ -79,7 +94,7 @@ layers:
                     # color: [1,0,0,0.5]
                     color: function(){return feature.stroke}
                     width: 2px
-                    order: 1002
+                    order: 10002
                     outline:
                         color: [0,0,0,0.3]
                         width: 1px
@@ -106,9 +121,36 @@ layers:
                 text:
                     priority: 1
                     font:
-                        size: 12px
+                        size: 10px
                         fill: white
                         stroke:
                             color: black
                             width: 3px
-                    
+    _elevation:
+        enabled: false
+        data: {source: _elevation}       
+
+        _lines:
+            # enabled: false
+
+            # filter: {kind: line}
+            # filter: {}
+            draw:
+                lines:
+                    color: [0,0,0,0.2]
+                    width: 0.3px
+                    order: 2000
+                polygons:
+                    # priority: 1
+                    color: |
+                        function(){
+                            var color = 210 - (feature.elevation + 400)/5
+                            return "hsl(" + color + ",100%,50%)"
+                            }
+                    # color: [1,0,0,0.5]
+                    # color: function(){return feature.stroke}
+                    width: 1px
+                    order: function(){return ((1000 + feature.elevation)/100) + 200} 
+                    outline:
+                        color: [0,0,0,0.3]
+                        width: 0.5px
