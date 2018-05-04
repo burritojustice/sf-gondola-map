@@ -1,7 +1,7 @@
 # San Francisco Municipal Gondola Network
 A modest proposal for a San Francisco aerial gondola system, with funiculars.
 
-![sf gondola network.jpg]
+![sf gondola network](sf gondola network.jpg)
 
 # Stations
 - Alamo Square Station
