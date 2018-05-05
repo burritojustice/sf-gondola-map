@@ -145,10 +145,10 @@ layers:
                     priority: 1
                     font:
                         size: 12px
-                        fill: aqua
+                        fill: blue
                         stroke:
-                            color: darkblue
-                            width: 2px
+                            color: white
+                            width: 3px
         _funicular:
             filter: {kind: funicular}
             draw:
